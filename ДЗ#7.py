@@ -15,7 +15,6 @@ for word in phrase:
         if letter in volwes:
             k += 1
     itog.append(k)
-    print(itog)
 if len(set(itog)) == 1:
     print('Парам пам-пам')
 else:
